@@ -1,0 +1,31 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+
+  flyway:
+    enabled: false
+
+  security:
+    user:
+      name: admin
+      password: cm9sZV91c2Vy
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+
+    database-platform: org.hibernate.dialect.H2Dialect
