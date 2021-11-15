@@ -35,5 +35,5 @@ Ao executar a aplicação será executado um script para popular a base de dados
 
 A aplicação possui dois endpoints, um para listar os agendamentos já feitos e outro para criar um agendamento:
 ````
-É possível utilizar a collection contida em src/config e importá-la no postman.
+É possível utilizar a collection no postman contida em src/config e importá-la no postman.
 ````
