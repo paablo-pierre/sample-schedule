@@ -16,7 +16,7 @@ services:
     image: 'sample-schedule:latest'
     build:
       context: .
-    container_name: app
+    container_name: sample-schedule
     ports:
       - 8090:8090
     depends_on:

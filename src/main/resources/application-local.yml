@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/schedule
+    username: postgres
+    password: asdqwe123

@@ -2,11 +2,8 @@ server:
   port: 8090
 
 spring:
-  datasource:
-    url: jdbc:postgresql://schedule-db:5432/schedule
-    username: postgres
-    password: asdqwe123
-
+  profiles:
+    active: local
   flyway:
     enabled: false
 
