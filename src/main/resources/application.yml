@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost/schedule
+    url: jdbc:postgresql://schedule-db:5432/schedule
     username: postgres
     password: asdqwe123
 
